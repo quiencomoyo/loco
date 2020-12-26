@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+	<title>FELIZ NAVIDAD</title>
+	<link rel="stylesheet" type="text/css" href="css/estilos.css">
+</head>
+<body>
+	<audio autoplay id="player">
+		<source src="NAVIDAD.mp3" type="audio/mp3">
+	</audio>
+	<!--<div>
+		<a href="#" class="button" id="si">SI</a>
+	</div>-->
+	<section>
+
+		<div class="box">
+			<div class="circle" id="si" >
+				
+				<h2>"Feliz Navidad y<br> Prospero Año Nuevo"<br>Paticos<br><span>Sonya, Heidy, Evelyn, <br>Laura, Verito, Diego</span></h2>
+				
+			</div>
+		</div>
+		
+	</section>
+	<script src="https://cdn.jsdelivr.net/npm/sweetalert2@10"></script>
+	<script src="js/navidad.js"></script>
+	<!--<script>
+		let si=document.getElementById('si');
+
+		si.addEventListener("click",function(e){
+			document.getElementById('player').play();
+			alert("Con una mirada y un mejillón, te regalo un besucón. Con un percebe y mi amistad, la Feliz Navidad. Y con mi cariño y amor, que vale gran abrasón, ¡el Feliz Año Nuevo!. Dios los bendiga cada dia y que siga obrando año tras años, sus vidas");
+			alert("Les desea de todo corazon el ING. MILTON EFRAIN YUJRA PALLI una 'FELIZ NAVIDAD Y PROSPERO AÑO NUEVO'");
+
+		});
+		function bubbles(){
+			var count = 200;
+			var section= document.querySelector('section');
+			var i = 0;
+			while(i< count){
+				var bubble=document.createElement('i');
+				var x= Math.floor(Math.random() * window.innerWidth);
+				var y= Math.floor(Math.random() * window.innerHeight);
+
+				var size = Math.random() * 10;
+				bubble.style.left = x + 'px';
+				bubble.style.top = y + 'px';
+				bubble.style.width=1+size+'px';
+				bubble.style.height=1+size+'px';
+
+				bubble.style.animationDuration = 10+size+'s';
+				bubble.style.animationDelay = -size+'s';
+
+				section.appendChild(bubble);
+				i++
+			}
+		}
+		bubbles()
+	</script>-->
+</body>
+</html>
