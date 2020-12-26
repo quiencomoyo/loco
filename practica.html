@@ -1,0 +1,150 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8">
+		<meta name="description" content="Restaurante X es el mas importante de Bolivia">
+		<meta name="keywords" content="comida comida, Restaurante, comida tradicional">
+		<meta name="author" content="Milton Efrain">
+		<title>Restaurante X - Bienvenido</title>
+		
+	</head>
+	<body>
+		<a href="nosotros.html" target="_blank">Nosotros</a>
+		<a href="#buz">Imagen</a>
+		<a href="tel:+59178657171">Llamar</a>
+		<a href="mailto:miltonefrainyujrapalli@gmail.com">Correo</a>
+
+		<form id="frmprueba" action="registro.php" method="post" enctype="multipart/form-data">
+			<input type="hidden" name="uid" value="12">
+			<input type="text" name="Nombre" placeholder="ingrese su Nombre" maxlength="20" minlength="2" required autocomplete="off">
+			<input type="password" name="pass" autocomplete="off" placeholder="ingrese tu contraseña" required>
+			<input type="email" name="email" placeholder="ingrese su Correo" required>
+			<input type="date" name="fecha" max="2020-06-15" min="2020-06-01" required>
+			<input type="month" name="mes" required>
+			<input type="week" name="semana" required>
+			<input type="color" name="color" value="#0000ff">
+			<input type="range" name="rango" step="2" max="50">
+			<input type="file" name="imagen" accept=".jpg, .png, .jpeg">
+			<input type="file" name="Imagen" multiple>
+			<input type="datetime-local" name="fecha-hora">
+			<input type="time" name="hora" required disabled value="12:20">
+			<input type="number" name="numero" required placeholder="selecciona un numero">
+			<input type="reset" name="limpiar">
+			<input type="url" name="url" placeholder="url">
+			<input type="tel" name="telefono" pattern="[0-9]{3}-[0-9]{2}-[0-9]{3}" placeholder="telefono">
+			<input type="radio" name="mascota" value="gato"><label>gato</label>
+			<input type="radio" name="mascota" value="perro"><label>perro</label>
+			<hr>
+			<input type="checkbox" checked name="marca[]" value="toyota"><label>toyota</label>
+			<input type="checkbox" name="marca[]" value="nissan"><label>nissan</label>
+			<input type="checkbox" name="mascota[]" value="mercedes"><label>mercedez</label>
+			<input type="checkbox" name="mascota" value="kawasaki"><label>kawasaki</label>
+			<textarea rows="10" cols="20" name="mensaje" placeholder="ingresa tu mensaje"></textarea>
+			<select name="distritos" required>
+				<option value="">-- Seleccione su distrito --</option>
+				<option value="bellavista">bella vista</option>
+				<option value="callo">callo</option>
+				<option value="ventanilla">ventanilla</option>
+			</select>
+			<br>
+			<select name="distritos" required multiple>
+				<option value="">-- Seleccione su distrito --</option>
+				<option value="bellavista">bella vista</option>
+				<option value="callo">callo</option>
+				<option value="ventanilla">ventanilla</option>
+			</select>
+
+			<select name="distritos" required>
+				<option value="">-- Seleccione su destino --</option>
+				<optgroup label="callap">
+					<option value="bellavista">bella vista</option>
+					<option value="callo">callo</option>
+					<option value="ventanilla">ventanilla</option>
+				</optgroup>
+				<optgroup label="Beni">
+					<option value="Rurrenabaque">Rurrenabaque</option>
+					<option value="Santa Rosa">Santa Rosa</option>
+					<option value="ventanilla">Ventemilla</option>
+				</optgroup>
+
+			</select>
+
+			<input type="submit" name="enviar">es
+			
+		</form>
+
+		<P>
+			<b>Lorem ipsum dolor sit amet</b>, consectetur adipisicing elit,<strong>sed do eiusmod
+			tempor</strong> <i>incididunt ut labore</i> et dolore magna aliqua. <em>Ut enim ad minim veniam</em>,
+			<big>quis nostrud exercitation ullamco laboris</big><small>nisi ut aliquip ex ea commodo
+			consequat.</small> Duis aute irure dolor in reprehenderit in voluptate velit esse
+			cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
+			proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+		</P>
+			<blockquote>
+				Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+				tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+				quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+				consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
+				cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
+				proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+			</blockquote>
+			<ul>
+				<li>pollo</li>
+				<li>asado</li>
+				<li>sopa de mani</li>
+			</ul>
+			<ol>
+				<li>majadito</li>
+					<ol>
+						<li>majadito</li>
+					</ol>
+				<li>pescado</li>
+					<ol>
+						<li>majadito</li>
+					</ol>	
+				<li>pacumuto</li>
+					<ol>
+						<li>majadito</li>
+					</ol>
+			</ol>
+		<img src="img/buz1.jpeg" width="700" height="500" alt="Este es un buz de viaje" title="buz Vaca Diez">
+		<figure>
+			<a href="nosotros.html"><img id="buz" src="img/bus2.jpeg" width="700" height="500" alt="Este es un buz de viaje" title="buz Vaca Diez"></a>
+			<figcaption>Este buz de viaje | Linea Bandera del Beni</figcaption>
+		</figure>
+		<div>		
+		</div>
+		<hr>
+		<nav></nav>
+		<main></main>
+		<section></section>
+		<article></article>
+		<footer></footer>
+		<aside></aside>
+
+		<table border="1" width="100%" cellspacing="10" cellpadding="10" bgcolor="yellow">
+			<tr>
+				<th width="20%" colspan="2" height="100" bgcolor="red" style="color: white">DNI / Nombre</th>
+				
+				<th>Email</th>
+			</tr>
+			<tr>
+				<td height="100" align="center" valign="top">12345678</td>
+				<td valign="middle" align="left">Milton Efrain</td>
+				<td valign="bottom" align="right">miltonefrainyujrapalli@gmail.com</td>
+			</tr>
+			<tr>
+				<td rowspan="2" height="100" align="center">78657171</td>
+				<td>Yessica Cuba</td>
+				<td>yessicacuba20@gmail.com</td>
+			</tr>
+			<tr>
+				
+				<td>Yessica Cuba</td>
+				<td>yessicacuba20@gmail.com</td>
+			</tr>
+		</table>
+
+	</body>
+</html>
